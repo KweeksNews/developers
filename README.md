@@ -1,4 +1,4 @@
-# KweeksDev
+# <p align="center"><img width="40%" src="https://dev.kweeksnews.com/assets/images/kweeksdev.svg"></p>
 
 ### Parameter JSON
 
@@ -13,4 +13,4 @@
 | github | Nama pengguna GitHub | Ya |
 | telegram | Nama pengguna Telegram | Ya |
 
-Parameter ```finish``` diisi apabila telah selesai bertugas. Selain itu, dapat dikosongkan saja.
+Parameter `finish` diisi apabila telah selesai bertugas. Selain itu, dapat dikosongkan saja.
