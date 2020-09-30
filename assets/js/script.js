@@ -7,15 +7,31 @@ $(document).ready(function () {
       !$("button[class='floatmenu']").is(":visible") &&
       $("#nav_menu").removeClass("is__open");
   });
+  $.getJSON("/assets/json/tech.json", function (data) {
+    var tech = "";
+    for (var i = 0; i < data.length; i++) {
+      tech +=
+        '<div class="box card"><img src="' +
+        data[i].image +
+        '" alt="' +
+        data[i].name +
+        '" title="' +
+        data[i].name +
+        '"><p>' +
+        data[i].name +
+        "</p></div>";
+    }
+    $(".tech-list").append(tech);
+  });
   $.getJSON("/assets/json/webmaster.json", function (data) {
-    var response = "",
+    var profile = "",
       indicator = "";
     for (var i = 0; i < data.length; i++) {
-      response += '<div class="carousel-item"><div class="profile">';
+      profile += '<div class="carousel-item"><div class="profile">';
       if (data[i].ltw) {
-        response += '<span class="ltw">LTW</span>';
+        profile += '<span class="ltw">LTW</span>';
       }
-      response +=
+      profile +=
         '<img src="https://github.com/' +
         data[i].github +
         '.png?size=400"><h3>' +
@@ -24,11 +40,11 @@ $(document).ready(function () {
         data[i].start +
         " - ";
       if (data[i].finish) {
-        response += data[i].finish;
+        profile += data[i].finish;
       } else {
-        response += "sekarang";
+        profile += "sekarang";
       }
-      response +=
+      profile +=
         '</p><ul class="contact"><li><a href="https://' +
         data[i].link +
         '/" target="_blank"><i class="icon-web"></i></a></li><li><a href="mailto:' +
@@ -41,7 +57,7 @@ $(document).ready(function () {
       indicator +=
         '<li data-target="#carousel-webmaster" data-slide-to="' + i + '"></li>';
     }
-    $("#items").append(response);
+    $("#items").append(profile);
     $("#indicators").append(indicator);
     $(".carousel-item").first().addClass("active");
     $(".carousel-indicators > li").first().addClass("active");

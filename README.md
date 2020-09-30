@@ -2,6 +2,14 @@
 
 ### Parameter JSON
 
+##### assets/json/tech.json
+| Parameter | Deskripsi | Wajib |
+|--|--|--|
+| name | Nama teknologi | Ya |
+| image | Logo teknologi | Ya |
+
+Logo teknologi harus berukuran `1024 x 1024 pixel` dengan format `svg`.
+
 ##### assets/json/webmaster.json
 | Parameter | Deskripsi | Wajib |
 |--|--|--|
