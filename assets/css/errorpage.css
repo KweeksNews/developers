@@ -1,0 +1,148 @@
+* {
+  transition: all 0.6s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: lato, sans-serif;
+}
+
+#main {
+  position: relative;
+  height: 100vh;
+  background: #000000;
+}
+
+#main img {
+  position: absolute;
+  margin: 10px 0 0 20px;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+#main .main {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  width: 100%;
+  text-align: center;
+}
+
+.main .title {
+  position: relative;
+  height: 180px;
+  z-index: -1;
+}
+
+.main .title h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #ffffff;
+  font-size: 50px;
+  padding-right: 10px;
+  line-height: 1em;
+  animation: type 0.5s alternate infinite;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.main a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  background: transparent;
+  padding: 10px 30px;
+  font-size: 15px;
+  transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+}
+
+.main a:hover {
+  color: #dd9933;
+}
+
+#main footer {
+  color: #f9f9f9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+}
+
+#main footer a {
+  text-decoration: none;
+  color: #dd9933;
+}
+
+#main footer p {
+  font-size: 12px;
+  margin: 7px auto;
+}
+
+.branding {
+  color: #dd9933;
+}
+
+@keyframes type {
+  from {
+    border-right: 4px solid #ffffff;
+  }
+  to {
+    border-right: 4px solid transparent;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main img {
+    margin: 10px 0 0;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #main img {
+    width: 170px;
+  }
+
+  .main .title {
+    height: 144px;
+  }
+
+  .main .title h1 {
+    font-size: 40px;
+  }
+
+  .main a {
+    font-size: 12px;
+    padding: 8px 24px;
+  }
+
+  @keyframes type {
+    from {
+      border-right: 3px solid #ffffff;
+    }
+    to {
+      border-right: 3px solid transparent;
+    }
+  }
+}
