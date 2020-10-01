@@ -443,7 +443,7 @@ main {
 #tech {
   padding: 2em 1em 3em 1em;
   background-color: var(--body-bg-dark);
-  scroll-margin-top: 4.7em;
+  scroll-margin-top: 4.3em;
 }
 
 #tech .tech-list {
@@ -476,7 +476,7 @@ main {
 #hof {
   padding: 2em 1em 3em 1em;
   background-color: var(--body-bg);
-  scroll-margin-top: 4.7em;
+  scroll-margin-top: 4.3em;
 }
 
 #hof .wrapper > img {
@@ -679,17 +679,25 @@ footer {
     width: 100%;
   }
 
-  #tech .box{
+  #tech {
+    scroll-margin-top: 4.7em;
+  }
+
+  #tech .box {
     filter: grayscale(100%) brightness(30%);
     background-color: transparent;
     box-shadow: none;
     border: none;
   }
 
-  #tech .box:hover{
+  #tech .box:hover {
     filter: grayscale(0%) brightness(100%);
     background-color: var(--body-bg-black);
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  #hof {
+    scroll-margin-top: 4.7em;
   }
 }
 
