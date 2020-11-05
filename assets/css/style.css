@@ -200,7 +200,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: var(--gray);
+  color: var(--text-gray);
 }
 
 html {
@@ -217,6 +217,7 @@ html {
 :root {
   --primary: #dd9933;
   --text-clr: #ffffff;
+  --text-gray: #777777;
   --body-bg: #2d2d2d;
   --body-bg-dark: #181717;
   --body-bg-black: #000000;
@@ -420,7 +421,7 @@ main {
   background-color: var(--primary);
   box-shadow: 0 0 15px 0 #dd99334d;
   border-radius: 5px;
-  color: var(--text-clr);
+  color: var(--body-bg-black);
   padding: 0.5em;
   margin: 2.5em auto 1.5em;
   width: 100%;
@@ -431,7 +432,9 @@ main {
 }
 
 #about .left > a:hover {
-  box-shadow: 0 0 15px 0 #dd993399;
+  background-color: var(--body-bg-black);
+  color: var(--text-clr);
+  box-shadow: 0 0 15px 0 #0000004d;
 }
 
 #about .right {
@@ -501,6 +504,7 @@ main {
 #webmaster .ltw {
   padding: 0.3em 0.8em;
   background-color: var(--primary);
+  color: var(--body-bg-black);
   display: inline;
   position: absolute;
   top: 0;
@@ -527,7 +531,7 @@ main {
 
 #webmaster .profile > p {
   font-size: 14px;
-  color: var(--gray);
+  color: var(--text-gray);
 }
 
 #webmaster .profile .contact {

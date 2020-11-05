@@ -13,6 +13,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://dev.kweeksnews.com/" />
   <meta property="og:title" content="KweeksDev | Di Balik Layar" />
+  <meta property="og:description" content="Di balik layar KweeksNews">
   <meta property="og:site_name" content="KweeksDev" />
   <meta property="og:image" content="https://dev.kweeksnews.com/assets/images/kweeksdev-square.png" />
   <meta property="og:image:width" content="700" />
@@ -27,19 +28,34 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <link rel="dns-prefetch" href="https://github.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="preconnect" href="https://github.com">
+  <link rel="preconnect" href="https://avatars2.githubusercontent.com">
+  <link rel="preconnect" href="https://avatars3.githubusercontent.com">
+  <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"
+    as="style">
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="preload" href="/assets/css/icomoon.css" as="style">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous" as="script">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/icomoon.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    integrity="sha512-7yA/d79yIhHPvcrSiB8S/7TyX0OxlccU8F/kuB8mHYjLlF1MInPbEohpoqfz0AILoq5hoD7lELZAYYHbyeEjag=="
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
     crossorigin="anonymous"></script>
 </head>
 
@@ -50,7 +66,7 @@
         <a href="/"><img src="/assets/images/kweeksdev.svg" alt="KweeksDev" title="KweeksDev"></a>
       </div>
       <div class="menu__wrapper" id="nav_menu">
-        <button class="floatmenu">
+        <button class="floatmenu" aria-label="Menu">
           <svg viewBox="0 0 20 20" fill="currentColor" class="icon__open">
             <path fill-rule="evenodd"
               d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
@@ -66,7 +82,8 @@
           <li><a href="#about"><i class="material-icons">info</i> Tentang</a></li>
           <li><a href="#tech"><i class="material-icons">memory</i> Teknologi</a></li>
           <li><a href="#webmaster"><i class="material-icons">construction</i> Webmaster</a></li>
-          <li><a href="https://status.kweeksnews.com/" target="_blank"><i class="material-icons">insert_chart</i>
+          <li><a href="https://status.kweeksnews.com/" target="_blank" rel="noopener"><i
+                class="material-icons">insert_chart</i>
               Status</a></li>
         </ul>
       </div>
@@ -80,13 +97,13 @@
           <img src="/assets/images/content.svg" alt="KweeksNews">
         </div>
         <div class="left">
-          <p class="card"><a href="https://kweeksnews.com/" class="branding" target="_blank">KweeksNews</a> adalah media
-            kreasi dan komunikasi terintegrasi yang memuat berbagai konten seperti artikel, kabar, cerpen, video,
-            podcast, dan lain sebagainya dari berbagai elemen seperti santri, organisasi santri, komunitas, pengajar,
-            dan seluruh warga <a href="https://web.muallimin.sch.id/" class="branding" target="_blank">Madrasah
-              Mu'allimin Muhammadiyah Yogyakarta</a> lainnya.
+          <p class="card"><a href="https://kweeksnews.com/" class="branding" target="_blank"
+              rel="noopener">KweeksNews</a> adalah media kreasi dan komunikasi terintegrasi yang memuat berbagai konten
+            seperti artikel, kabar, cerpen, video, podcast, dan lain sebagainya dari berbagai elemen seperti santri,
+            organisasi santri, komunitas, pengajar, dan seluruh warga <a href="https://web.muallimin.sch.id/"
+              class="branding" target="_blank" rel="noopener">Madrasah Mu'allimin Muhammadiyah Yogyakarta</a> lainnya.
           </p>
-          <a href="https://kweeksnews.com/tentang/" target="_blank">Selengkapnya</a>
+          <a href="https://kweeksnews.com/tentang/" target="_blank" rel="noopener">Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -109,10 +126,12 @@
             <!-- Wrapper for carousel items -->
             <div class="carousel-inner" id="items">
             </div>
-            <a class="carousel-control-prev" href="#carousel-webmaster" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carousel-webmaster" role="button" data-slide="prev"
+              aria-label="Previous">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </a>
-            <a class="carousel-control-next" href="#carousel-webmaster" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carousel-webmaster" role="button" data-slide="next"
+              aria-label="Next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
           </div>
@@ -123,7 +142,7 @@
   <footer>
     <p>&copy; <span id="year"></span> <span class="branding">KweeksNews Network</span>. All Rights Reserved.</p>
   </footer>
-  <script src="/assets/js/script.js"></script>
+  <script defer src="/assets/js/script.js"></script>
 </body>
 
 </html>

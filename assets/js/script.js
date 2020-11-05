@@ -34,7 +34,11 @@ $(document).ready(function () {
       profile +=
         '<img src="https://github.com/' +
         data[i].github +
-        '.png?size=400"><h3>' +
+        '.png?size=400" alt="' +
+        data[i].name +
+        '" title="' +
+        data[i].name +
+        '"><h3>' +
         data[i].name +
         "</h3><p>" +
         data[i].start +
@@ -47,13 +51,13 @@ $(document).ready(function () {
       profile +=
         '</p><ul class="contact"><li><a href="https://' +
         data[i].link +
-        '/" target="_blank"><i class="icon-web"></i></a></li><li><a href="mailto:' +
+        '/" target="_blank" rel="noopener" aria-label="Site"><i class="icon-web"></i></a></li><li><a href="mailto:' +
         data[i].email +
-        '" target="_blank"><i class="icon-email"></i></a></li><li><a href="https://github.com/' +
+        '" target="_blank" rel="noopener" aria-label="Email"><i class="icon-email"></i></a></li><li><a href="https://github.com/' +
         data[i].github +
-        '/" target="_blank"><i class="icon-github"></i></a></li><li><a href="https://t.me/' +
+        '/" target="_blank" rel="noopener" aria-label="GitHub"><i class="icon-github"></i></a></li><li><a href="https://t.me/' +
         data[i].telegram +
-        '/" target="_blank"><i class="icon-telegram"></i></a></li></ul></div></div>';
+        '/" target="_blank" rel="noopener" aria-label="Telegram"><i class="icon-telegram"></i></a></li></ul></div></div>';
       indicator +=
         '<li data-target="#carousel-webmaster" data-slide-to="' + i + '"></li>';
     }
