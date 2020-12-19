@@ -282,8 +282,8 @@ main {
 }
 
 #about .right {
-  max-width: 400px;
-  margin: 3em auto;
+  max-width: 600px;
+  margin: 1em auto;
   padding: 1em;
 }
 
@@ -355,7 +355,7 @@ main {
   right: 0;
   border-radius: 0 14px 0 4px;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 2px;
 }
 
@@ -416,7 +416,7 @@ footer {
 
   #about .left a {
     width: 250px;
-    margin: 2.5em 0 1em;
+    margin: 2em 0 3em;
   }
 
   #tech .box {
@@ -506,8 +506,8 @@ footer {
 
   #about .left {
     float: left;
-    width: 50%;
-    padding-right: 50px;
+    width: 40%;
+    padding-right: 30px;
   }
 
   #about h2.left {
@@ -515,12 +515,13 @@ footer {
   }
 
   #about .left p {
-    margin: 2em auto 1em;
+    margin: 2.5em auto 1em;
+    font-size: 14px;
   }
 
   #about .right {
     float: right;
-    width: 50%;
+    width: 60%;
     margin: auto;
     max-width: 100%;
   }
