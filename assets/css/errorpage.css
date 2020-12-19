@@ -5,79 +5,66 @@
 }
 
 body {
+  position: relative;
   padding: 0;
   margin: 0;
-  font-family: lato, sans-serif;
-}
-
-#main {
-  position: relative;
-  height: 100vh;
+  font-family: 'Quicksand', 'Roboto', 'Ubuntu', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   background: #000000;
 }
 
-#main img {
+main {
+  position: relative;
+  height: 100vh;
+}
+
+header img {
   position: absolute;
   margin: 10px 0 0 20px;
-  color: #ffffff;
   font-size: 50px;
 }
 
-#main .main {
+.container {
   position: absolute;
   left: 50%;
   top: 45%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-.main {
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
 }
 
-.main .title {
-  position: relative;
-  height: 180px;
-  z-index: -1;
-}
-
-.main .title h1 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.container h1 {
+  margin: 0 auto 0.5em;
+  max-width: 240px;
   color: #ffffff;
   font-size: 50px;
-  padding-right: 10px;
   line-height: 1em;
+  padding-right: 10px;
   animation: type 0.5s alternate infinite;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
-.main a {
+.container a {
+  padding: 10px 30px;
   display: inline-block;
-  text-transform: uppercase;
-  font-weight: 700;
   color: #ffffff;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 700;
   text-decoration: none;
   border: 2px solid;
   border-radius: 30px;
   -webkit-border-radius: 30px;
-  background: transparent;
-  padding: 10px 30px;
-  font-size: 15px;
   transition: 0.2s all;
   -webkit-transition: 0.2s all;
 }
 
-.main a:hover {
+.container a:hover {
   color: #dd9933;
 }
 
-#main footer {
+footer {
   color: #f9f9f9;
   position: absolute;
   bottom: 0;
@@ -86,17 +73,17 @@ body {
   text-align: center;
 }
 
-#main footer a {
+footer a {
   text-decoration: none;
   color: #dd9933;
 }
 
-#main footer p {
+footer p {
   font-size: 12px;
   margin: 7px auto;
 }
 
-.branding {
+.marking {
   color: #dd9933;
 }
 
@@ -110,7 +97,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  #main img {
+  header img {
     margin: 10px 0 0;
     left: 50%;
     -webkit-transform: translate(-50%);
@@ -120,19 +107,16 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  #main img {
+  header img {
     width: 170px;
   }
 
-  .main .title {
-    height: 144px;
-  }
-
-  .main .title h1 {
+  .container h1 {
     font-size: 40px;
+    max-width: 190px;
   }
 
-  .main a {
+  .container a {
     font-size: 12px;
     padding: 8px 24px;
   }
