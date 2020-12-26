@@ -59,7 +59,7 @@ html {
   --body-bg: #2d2d2d;
   --body-bg-dark: #181717;
   --body-bg-black: #000000;
-  --menu-hover: var(--body-bg-dark);
+  --menu-hover: var(--primary);
   --menu-mobile-hover: #ffffff;
 }
 
@@ -371,6 +371,7 @@ main {
 
 #webmaster .profile > h3 {
   font-size: 24px;
+  font-weight: 600;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -394,6 +395,104 @@ main {
 }
 
 #webmaster .carousel-indicators {
+  bottom: 1em;
+}
+
+#editor {
+  padding: 2em 1em 3em 1em;
+  background-color: var(--body-bg-dark);
+  scroll-margin-top: 4.3em;
+}
+
+#editor .wrapper > img {
+  margin: 1em auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 1em;
+}
+
+#editor .carousel {
+  margin: 2em auto 0;
+  width: 100%;
+  max-width: 350px;
+}
+
+#editor .profile {
+  padding: 1em 3em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#editor .profile > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#editor .profile > h4 {
+  font-size: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#editor .profile > p {
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+#editor .carousel-indicators {
+  bottom: 1em;
+}
+
+#illustrator {
+  padding: 2em 1em 3em 1em;
+  background-color: var(--body-bg);
+  scroll-margin-top: 4.3em;
+}
+
+#illustrator .wrapper > img {
+  margin: 1em auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 1em;
+}
+
+#illustrator .carousel {
+  margin: 2em auto 0;
+  width: 100%;
+  max-width: 350px;
+}
+
+#illustrator .profile {
+  padding: 1em 3em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#illustrator .profile > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#illustrator .profile > h4 {
+  font-size: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#illustrator .profile > p {
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+#illustrator .carousel-indicators {
   bottom: 1em;
 }
 
@@ -435,6 +534,7 @@ footer {
   #webmaster .wrapper {
     overflow: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 2em auto 0;
@@ -443,16 +543,67 @@ footer {
   #webmaster .wrapper > img {
     float: left;
     width: 60%;
-    max-width: 500px;
-    margin: 0 4em 0 0;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-right: min(1em);
     padding: 0;
   }
 
   #webmaster .carousel {
     float: right;
     width: 40%;
-    margin: auto auto 2em;
-    box-shadow: -15px 15px 0 0 var(--body-bg-dark);
+    max-width: 300px;
+    margin-bottom: 2em;
+  }
+
+  #editor .wrapper {
+    overflow: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto 0;
+  }
+
+  #editor .wrapper > img {
+    float: right;
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: min(1em);
+    padding: 0;
+  }
+
+  #editor .carousel {
+    float: left;
+    width: 40%;
+    max-width: 300px;
+    margin-bottom: 2em;
+  }
+
+  #illustrator .wrapper {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto 0;
+  }
+
+  #illustrator .wrapper > img {
+    float: left;
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-right: min(1em);
+    padding: 0;
+  }
+
+  #illustrator .carousel {
+    float: right;
+    width: 40%;
+    max-width: 300px;
+    margin-bottom: 2em;
   }
 }
 
@@ -470,6 +621,7 @@ footer {
   .menu__wrapper {
     position: static;
     background-color: transparent;
+    text-align: center;
   }
 
   .menu__wrapper .floatmenu {
@@ -494,13 +646,15 @@ footer {
   .menu__wrapper .menu a {
     padding: 0.5rem 1.5rem;
     border-radius: 0.25rem;
+    background-color: var(--body-bg-black);
+    color: var(--text-clr);
     transition: background-color 0.18s cubic-bezier(0.77, 0, 0.175, 1);
   }
 
   .menu__wrapper .menu a:hover {
     background-color: var(--menu-hover);
     border-radius: 0.4rem;
-    color: #ffffff;
+    color: var(--body-bg-black);
   }
 
   #about {
@@ -563,7 +717,8 @@ footer {
   }
 
   #webmaster .wrapper > img {
-    margin: 0 8em 0 0;
+    margin: 0 auto;
+    max-width: 500px;
   }
 }
 
