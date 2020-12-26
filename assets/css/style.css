@@ -70,8 +70,8 @@ body {
   color: var(--text-clr);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  font-family: "Quicksand", "Roboto", "Ubuntu", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif !important;
+  font-family: 'Quicksand', 'Roboto', 'Ubuntu', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif !important;
 }
 
 ::-webkit-scrollbar {
@@ -112,7 +112,7 @@ header .branding img {
 }
 
 main {
-  min-height: 50vh;
+  min-height: 100vh;
 }
 
 .material-icons {
@@ -128,8 +128,8 @@ main {
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: "liga";
-  font-feature-settings: "liga";
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-right: 2px;
@@ -443,9 +443,11 @@ footer {
   #webmaster .wrapper > img {
     float: left;
     width: 60%;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 4em 0 0;
+    padding: 0;
   }
+
   #webmaster .carousel {
     float: right;
     width: 40%;
@@ -458,35 +460,43 @@ footer {
   .wrap {
     max-width: 960px;
   }
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .menu__wrapper {
     position: static;
     background-color: transparent;
   }
+
   .menu__wrapper .floatmenu {
     display: none;
   }
+
   .menu__wrapper .menu {
     display: block;
     margin-bottom: 0;
     color: var(--text-clr);
   }
+
   .menu__wrapper .menu li {
     display: inline-block;
   }
+
   .menu__wrapper .menu li + li {
     margin-top: 0;
     margin-left: 0.5rem;
   }
+
   .menu__wrapper .menu a {
     padding: 0.5rem 1.5rem;
     border-radius: 0.25rem;
     transition: background-color 0.18s cubic-bezier(0.77, 0, 0.175, 1);
   }
+
   .menu__wrapper .menu a:hover {
     background-color: var(--menu-hover);
     border-radius: 0.4rem;
@@ -550,6 +560,10 @@ footer {
 
   #webmaster {
     scroll-margin-top: 4.7em;
+  }
+
+  #webmaster .wrapper > img {
+    margin: 0 8em 0 0;
   }
 }
 
