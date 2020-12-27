@@ -1,27 +1,75 @@
 # <p align="center"><img width="40%" src="https://developers.kweeksnews.com/assets/images/kweeksdev.svg"></p>
 
-### Parameter JSON
+## Introduction
+
+KweeksDev uses the [GitHub Pages](https://pages.github.com//) service to display a list of the technology behind the KweeksNews Network sites and a list of the KweeksNews Network sites administrators from period to period.
+
+### JSON Parameters
 
 #### assets/json/tech.json
 
-| Parameter | Deskripsi      | Wajib |
-| --------- | -------------- | ----- |
-| name      | Nama teknologi | Ya    |
-| image     | Logo teknologi | Ya    |
+| Parameters | Description       | Type   | Required |
+| ---------- | ----------------- | ------ | -------- |
+| name       | Technology's name | string | Yes      |
+| image      | Technology's logo | string | Yes      |
 
-- Logo teknologi harus berukuran `1024 x 1024 pixel` dengan format `svg`.
+- Technology logo must be `1024 x 1024` pixels in `svg` format.
 
 #### assets/json/webmaster.json
 
-| Parameter | Deskripsi                        | Wajib |
-| --------- | -------------------------------- | ----- |
-| name      | Nama (atau nama alias)           | Ya    |
-| start     | Waktu mulai bertugas             | Ya    |
-| finish    | Waktu selesai bertugas           | Tidak |
-| link      | Tautan ke halaman web portofolio | Ya    |
-| email     | Alamat email                     | Ya    |
-| github    | Nama pengguna GitHub             | Ya    |
-| telegram  | Nama pengguna Telegram           | Ya    |
+| Parameters | Description                     | Type    | Required |
+| ---------- | ------------------------------- | ------- | -------- |
+| name       | Name (or alias)                 | string  | Yes      |
+| start      | Start of duty period            | number  | Yes      |
+| finish     | End of duty period              | number  | No       |
+| link       | Direct link to portfolio page   | string  | Yes      |
+| email      | Email address                   | string  | Yes      |
+| github     | Direct link to GitHub profile   | string  | Yes      |
+| telegram   | Direct link to Telegram profile | string  | Yes      |
+| ltw        | Long-Term Webmaster status      | boolean | No       |
 
-- Apabila nama tersusun lebih dari dua kata, maka tampilkan dua kata saja dan sisanya disingkat.
-- Parameter `finish` diisi apabila telah selesai bertugas. Selain itu, dapat dikosongkan saja.
+- If the name consists of more than two words, then display only the first two words and abbreviate the rest.
+- Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+
+#### assets/json/editor.json
+
+| Parameters | Description              | Type   | Required |
+| ---------- | ------------------------ | ------ | -------- |
+| start      | Start of duty period     | number | Yes      |
+| finish     | End of duty period       | number | No       |
+| head       | Head's name (or alias)   | string | Yes      |
+| member     | Member's name (or alias) | array  | Yes      |
+
+- If the name consists of more than two words, then display only the first two words and abbreviate the rest.
+- Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+
+#### assets/json/illustrator.json
+
+| Parameters | Description              | Type   | Required |
+| ---------- | ------------------------ | ------ | -------- |
+| start      | Start of duty period     | number | Yes      |
+| finish     | End of duty period       | number | No       |
+| head       | Head's name (or alias)   | string | Yes      |
+| member     | Member's name (or alias) | array  | Yes      |
+
+- If the name consists of more than two words, then display only the first two words and abbreviate the rest.
+- Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+
+### License
+
+```
+Copyright (C) 2020  KweeksNews Network
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
