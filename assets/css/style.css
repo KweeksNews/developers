@@ -553,7 +553,7 @@ footer {
     width: 60%;
     max-width: 400px;
     margin: 0 auto;
-    margin-right: min(1em);
+    margin-right: 1em;
     padding: 0;
   }
 
@@ -578,7 +578,7 @@ footer {
     width: 60%;
     max-width: 400px;
     margin: 0 auto;
-    margin-left: min(1em);
+    margin-left: 1em;
     padding: 0;
   }
 
@@ -603,7 +603,7 @@ footer {
     width: 60%;
     max-width: 400px;
     margin: 0 auto;
-    margin-right: min(1em);
+    margin-right: 1em;
     padding: 0;
   }
 
@@ -730,6 +730,24 @@ footer {
   }
 
   #webmaster .wrapper > img {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  #editor {
+    scroll-margin-top: 4.7em;
+  }
+
+  #editor .wrapper > img {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  #illustrator {
+    scroll-margin-top: 4.7em;
+  }
+
+  #illustrator .wrapper > img {
     margin: 0 auto;
     max-width: 500px;
   }
