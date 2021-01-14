@@ -34,6 +34,9 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 a:hover {
@@ -201,6 +204,8 @@ main {
   background-color: var(--primary);
   border-radius: 0.4rem;
   color: var(--body-bg-black);
+  -webkit-transition: color 0.18s ease;
+  -o-transition: color 0.18s ease;
   transition: color 0.18s ease;
   font-weight: 600;
 }
@@ -273,6 +278,9 @@ main {
   text-align: center;
   font-size: 16px;
   font-weight: 600;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 #about .left > a:hover {
@@ -648,7 +656,9 @@ footer {
     border-radius: 0.4rem;
     background-color: var(--body-bg-black);
     color: var(--text-clr);
-    transition: background-color 0.18s cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
 
   .menu__wrapper .menu a:hover {
@@ -704,6 +714,9 @@ footer {
     background-color: transparent;
     box-shadow: none;
     border: none;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
 
   #tech .box:hover {
