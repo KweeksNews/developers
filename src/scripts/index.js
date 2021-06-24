@@ -115,8 +115,12 @@ const loadData = async () => {
   $('#illustrator .carousel-indicators > button').first().addClass('active').attr('aria-current', true);
 };
 
+const setCopyrightDate = () => {
+  $('.year').text(new Date().getFullYear());
+};
+
 $(window).on('load', () => {
   initMenu();
   loadData();
-  $('#year').text(new Date().getFullYear());
+  setCopyrightDate();
 });
