@@ -1,6 +1,8 @@
 import $ from 'jquery';
 import 'regenerator-runtime';
 import 'bootstrap/js/dist/carousel';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/index.css';
@@ -28,7 +30,7 @@ const loadData = async () => {
   techData.map((data) => {
     techItem += `
       <div class="tech__item">
-        <img src="${data.image}" alt="${data.name}" title="${data.name}">
+        <img class="lazyload" data-src="${data.image}" alt="${data.name}" title="${data.name}">
         <p>${data.name}</p>
       </div>`;
   });
@@ -42,7 +44,7 @@ const loadData = async () => {
       <div class="carousel-item">
         <div class="carousel-wrapper">
           ${data.ltw ? '<span class="ltw">LTW</span>' : ''}
-          <img src="https://github.com/${data.github}.png?size=400" alt="${data.name}" title="${data.name}">
+          <img class="lazyload" data-src="https://github.com/${data.github}.png?size=400" alt="${data.name}" title="${data.name}">
           <h3>${data.name}</h3>
           <p>${data.start} - ${data.finish || 'sekarang'}</p> 
           <div class="contact">
