@@ -2,18 +2,18 @@
 
 ## Introduction
 
-KweeksDev uses the [GitHub Pages](https://pages.github.com//) service to display a list of the technology behind the KweeksNews Network sites and a list of the KweeksNews Network sites administrators from period to period.
+KweeksDev uses the [GitHub Pages](https://pages.github.com/) service to display a list of the technology behind the KweeksNews Network sites and the sites administrators from period to period.
 
 ### JSON Parameters
 
 #### assets/json/tech.json
 
-| Parameters | Description       | Type   | Required |
-| ---------- | ----------------- | ------ | -------- |
-| name       | Technology's name | string | Yes      |
-| image      | Technology's logo | string | Yes      |
+| Parameters | Description | Type   | Required |
+| ---------- | ----------- | ------ | -------- |
+| name       | Name        | string | Yes      |
+| image      | Logo        | string | Yes      |
 
-- Technology logo must be `1024 x 1024` pixels in `svg` format.
+- Logo must be `1024 x 1024` pixels in `svg` format.
 
 #### assets/json/webmaster.json
 
@@ -28,7 +28,7 @@ KweeksDev uses the [GitHub Pages](https://pages.github.com//) service to display
 | telegram   | Direct link to Telegram profile | string  | Yes      |
 | ltw        | Long-Term Webmaster status      | boolean | No       |
 
-- If the name consists of more than two words, then display only the first two words and abbreviate the rest.
+- If the name consists of more than two words, then write only the first two words and abbreviate the rest.
 - Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
 
 #### assets/json/editor.json
@@ -40,7 +40,7 @@ KweeksDev uses the [GitHub Pages](https://pages.github.com//) service to display
 | head       | Head's name (or alias)   | string | Yes      |
 | member     | Member's name (or alias) | array  | Yes      |
 
-- If the name consists of more than two words, then display only the first two words and abbreviate the rest.
+- If the name consists of more than two words, then write only the first two words and abbreviate the rest.
 - Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
 
 #### assets/json/illustrator.json
@@ -52,7 +52,7 @@ KweeksDev uses the [GitHub Pages](https://pages.github.com//) service to display
 | head       | Head's name (or alias)   | string | Yes      |
 | member     | Member's name (or alias) | array  | Yes      |
 
-- If the name consists of more than two words, then display only the first two words and abbreviate the rest.
+- If the name consists of more than two words, then write only the first two words and abbreviate the rest.
 - Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
 
 ### License
