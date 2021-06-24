@@ -1,4 +1,4 @@
-# <p align="center"><img width="40%" src="https://developers.kweeksnews.com/assets/images/kweeksdev.svg"></p>
+# <p align="center"><img width="40%" src="https://developers.kweeksnews.com/assets/img/kweeksdev.svg"></p>
 
 ## Introduction
 
