@@ -2,31 +2,31 @@
 
 ## Introduction
 
-KweeksDev uses the [GitHub Pages](https://pages.github.com/) service to display a list of the technology behind the KweeksNews Network sites and the sites administrators from period to period.
+KweeksDev (KweeksNews Developers) uses the [GitHub Pages](https://pages.github.com/) service to display a list of the technology behind the KweeksNews Network sites and the sites administrators from period to period.
 
 ### JSON Parameters
 
 #### assets/json/tech.json
 
-| Parameters | Description | Type   | Required |
-| ---------- | ----------- | ------ | -------- |
-| name       | Name        | string | Yes      |
-| image      | Logo        | string | Yes      |
+| Parameters | Description       | Type   | Required |
+| ---------- | ----------------- | ------ | -------- |
+| name       | Technology's name | string | Yes      |
+| image      | Technology's logo | string | Yes      |
 
 - Logo must be `1024 x 1024` pixels in `svg` format.
 
 #### assets/json/webmaster.json
 
-| Parameters | Description                     | Type    | Required |
-| ---------- | ------------------------------- | ------- | -------- |
-| name       | Name (or alias)                 | string  | Yes      |
-| start      | Start of duty period            | number  | Yes      |
-| finish     | End of duty period              | number  | No       |
-| link       | Direct link to portfolio page   | string  | Yes      |
-| email      | Email address                   | string  | Yes      |
-| github     | Direct link to GitHub profile   | string  | Yes      |
-| telegram   | Direct link to Telegram profile | string  | Yes      |
-| ltw        | Long-Term Webmaster status      | boolean | No       |
+| Parameters | Description                 | Type    | Required |
+| ---------- | --------------------------- | ------- | -------- |
+| name       | Webmaster's name (or alias) | string  | Yes      |
+| start      | Start of duty period        | number  | Yes      |
+| finish     | End of duty period          | number  | No       |
+| link       | Portfolio page link         | string  | Yes      |
+| email      | Email address               | string  | Yes      |
+| github     | GitHub username             | string  | Yes      |
+| telegram   | Telegram username           | string  | Yes      |
+| ltw        | Long-Term Webmaster status  | boolean | No       |
 
 - If the name consists of more than two words, then write only the first two words and abbreviate the rest.
 - Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
