@@ -20,40 +20,43 @@ KweeksDev (KweeksNews Developers) uses the [GitHub Pages](https://pages.github.c
 | Parameters | Description                 | Type    | Required |
 | ---------- | --------------------------- | ------- | -------- |
 | name       | Webmaster's name (or alias) | string  | Yes      |
-| start      | Start of duty period        | number  | Yes      |
-| finish     | End of duty period          | number  | No       |
+| start      | Start of duty period        | string  | Yes      |
+| finish     | End of duty period          | string  | No       |
 | link       | Portfolio page link         | string  | Yes      |
 | email      | Email address               | string  | Yes      |
 | github     | GitHub username             | string  | Yes      |
 | telegram   | Telegram username           | string  | Yes      |
 | ltw        | Long-Term Webmaster status  | boolean | No       |
 
-- If the name consists of more than two words, then write only the first two words and abbreviate the rest.
-- Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+- Write only the first two words of the `name` and abbreviate the rest. 
+- Fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+- Use `YYYY-MM` format for the `start` and `finish` parameter (e.g. `2020-02`).
 
 #### assets/json/editor.json
 
 | Parameters | Description              | Type   | Required |
 | ---------- | ------------------------ | ------ | -------- |
-| start      | Start of duty period     | number | Yes      |
-| finish     | End of duty period       | number | No       |
+| start      | Start of duty period     | string | Yes      |
+| finish     | End of duty period       | string | No       |
 | head       | Head's name (or alias)   | string | Yes      |
 | member     | Member's name (or alias) | array  | Yes      |
 
-- If the name consists of more than two words, then write only the first two words and abbreviate the rest.
-- Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+- Write only the first two words of the `name` and abbreviate the rest. 
+- Fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+- Use `YYYY-MM` format for the `start` and `finish` parameter (e.g. `2020-02`).
 
 #### assets/json/illustrator.json
 
 | Parameters | Description              | Type   | Required |
 | ---------- | ------------------------ | ------ | -------- |
-| start      | Start of duty period     | number | Yes      |
-| finish     | End of duty period       | number | No       |
+| start      | Start of duty period     | string | Yes      |
+| finish     | End of duty period       | string | No       |
 | head       | Head's name (or alias)   | string | Yes      |
 | member     | Member's name (or alias) | array  | Yes      |
 
-- If the name consists of more than two words, then write only the first two words and abbreviate the rest.
-- Only fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+- Write only the first two words of the `name` and abbreviate the rest. 
+- Fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
+- Use `YYYY-MM` format for the `start` and `finish` parameter (e.g. `2020-02`).
 
 ### License
 
