@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import moment from 'moment';
 import 'regenerator-runtime';
 import 'bootstrap/js/dist/carousel';
 import 'lazysizes';
@@ -25,6 +26,11 @@ const initMenu = () => {
 };
 
 const loadData = async () => {
+  const dateFormat = (date) => {
+    moment.locale('id');
+    return moment(date).format('MMM YYYY');
+  };
+
   const techData = await (await fetch('/assets/json/tech.json')).json();
   let techItem = '';
   techData.map((data) => {
@@ -46,7 +52,7 @@ const loadData = async () => {
           ${data.ltw ? '<span class="ltw">LTW</span>' : ''}
           <img class="lazyload" data-src="https://github.com/${data.github}.png?size=400" alt="${data.name}" title="${data.name}">
           <h3>${data.name}</h3>
-          <p>${data.start} - ${data.finish || 'sekarang'}</p> 
+          <p>${dateFormat(data.start)} - ${data.finish ? dateFormat(data.finish) : 'sekarang'}</p> 
           <div class="contact">
             <a href="https://${data.link}/" target="_blank" rel="noopener" aria-label="Site">
               <i class="icon-web"></i>
@@ -82,7 +88,7 @@ const loadData = async () => {
         <div class="carousel-wrapper">
           <h3>${data.head}</h3>
           ${editorMember}
-          <p>${data.start} - ${data.finish || 'sekarang'}</p>
+          <p>${dateFormat(data.start)} - ${data.finish ? dateFormat(data.finish) : 'sekarang'}</p>
         </div>
       </div>`;
     editorIndicator += `
@@ -104,7 +110,7 @@ const loadData = async () => {
         <div class="carousel-wrapper">
           <h3>${data.head}</h3>
           ${illustratorMember}
-          <p>${data.start} - ${data.finish || 'sekarang'}</p>
+          <p>${dateFormat(data.start)} - ${data.finish ? dateFormat(data.finish) : 'sekarang'}</p>
         </div>
       </div>`;
     illustratorIndicator += `
