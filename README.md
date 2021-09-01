@@ -6,7 +6,7 @@ KweeksDev (KweeksNews Developers) uses the [GitHub Pages](https://pages.github.c
 
 ### JSON Parameters
 
-#### assets/json/tech.json
+#### src/public/assets/json/tech.json
 
 | Parameters | Description       | Type   | Required |
 | ---------- | ----------------- | ------ | -------- |
@@ -15,7 +15,7 @@ KweeksDev (KweeksNews Developers) uses the [GitHub Pages](https://pages.github.c
 
 - Logo must be `1024 x 1024` pixels in `svg` format.
 
-#### assets/json/webmaster.json
+#### src/public/assets/json/webmaster.json
 
 | Parameters | Description                 | Type    | Required |
 | ---------- | --------------------------- | ------- | -------- |
@@ -32,7 +32,7 @@ KweeksDev (KweeksNews Developers) uses the [GitHub Pages](https://pages.github.c
 - Fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
 - Use `YYYY-MM` format for the `start` and `finish` parameter (e.g. `2020-02`).
 
-#### assets/json/editor.json
+#### src/public/assets/json/editor.json
 
 | Parameters | Description              | Type   | Required |
 | ---------- | ------------------------ | ------ | -------- |
@@ -45,7 +45,7 @@ KweeksDev (KweeksNews Developers) uses the [GitHub Pages](https://pages.github.c
 - Fill the `finish` parameter when the duty period has ended. Otherwise, just leave it blank.
 - Use `YYYY-MM` format for the `start` and `finish` parameter (e.g. `2020-02`).
 
-#### assets/json/illustrator.json
+#### src/public/assets/json/illustrator.json
 
 | Parameters | Description              | Type   | Required |
 | ---------- | ------------------------ | ------ | -------- |
