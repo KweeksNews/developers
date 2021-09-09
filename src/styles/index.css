@@ -577,7 +577,48 @@ footer {
   }
 
   nav .nav__list a {
+    position: relative;
     padding: 0.8rem 1.3rem 0.8rem 1rem;
+  }
+
+  nav .nav__list a:hover {
+    background-color: transparent;
+    color: #ffffff;
+  }
+
+  nav .nav__list a:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  nav .nav__list a:after {
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    width: 30px;
+    border-radius: 5px;
+    content: '';
+    background: #dd9933;
+  }
+
+  nav .nav__list a:focus:after,
+  nav .nav__list a:hover:after {
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s ease-out,
+      border-color 0.3s ease-out;
+    -ms-transition: -webkit-transform 0.3s ease-out, border-color 0.3s ease-out;
+    transition: transform 0.3s ease-out, border-color 0.3s ease-out;
+    -webkit-transform: scaleX(1) !important;
+    -ms-transform: scaleX(1) !important;
+    transform: scaleX(1) !important;
   }
 
   main {
