@@ -1,0 +1,39 @@
+//!           Sigurd Gartmann : https://github.com/sigurdga
+
+//!           Stephen Ramthun : https://github.com/stephenramthun
+
+//! author : Alessandro Maruccia : https://github.com/alesma
+
+//! author : David Rossellat : https://github.com/gholadr
+
+//! author : Jacob Middag : https://github.com/middagj
+
+//! author : Joris Röling : https://github.com/jorisroling
+
+//! author : Squar team, mysquar.com
+
+//! author : Tin Aung Lin : https://github.com/thanyawzinmin
+
+//! author : Weldan Jamili : https://github.com/weldan
+
+//! author : suvash : https://github.com/suvash
+
+//! authors : Espen Hovlandsdal : https://github.com/rexxars
+
+//! locale : Burmese [my]
+
+//! locale : Dutch (Belgium) [nl-be]
+
+//! locale : Malay [ms-my]
+
+//! locale : Malay [ms]
+
+//! locale : Maltese (Malta) [mt]
+
+//! locale : Nepalese [ne]
+
+//! locale : Norwegian Bokmål [nb]
+
+//! moment.js locale configuration
+
+//! note : DEPRECATED, the correct one is [ms]

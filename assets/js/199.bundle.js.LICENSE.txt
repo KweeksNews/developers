@@ -1,0 +1,55 @@
+//! author : Aggelos Karalias : https://github.com/mehiel
+
+//! author : Chris Cartlidge : https://github.com/chriscartlidge
+
+//! author : Chris Gedrim : https://github.com/chrisgedrim
+
+//! author : Jared Morse : https://github.com/jarcoal
+
+//! author : Jatin Agrawal : https://github.com/jatinag22
+
+//! author : Jawish Hameed : https://github.com/jawish
+
+//! author : Jonathan Abourbih : https://github.com/jonbca
+
+//! author : Luke McGregor : https://github.com/lukemcgregor
+
+//! author : Martin Groller : https://github.com/MadMG
+
+//! author : Matthew Castrillon-Madrigal : https://github.com/techdimension
+
+//! author : Mikolaj Dadela : https://github.com/mik01aj
+
+//! author : lluchs : https://github.com/lluchs
+
+//! author : sschueller : https://github.com/sschueller
+
+//! author: Menelion Elensúle: https://github.com/Oire
+
+//! locale : English (Australia) [en-au]
+
+//! locale : English (Canada) [en-ca]
+
+//! locale : English (India) [en-in]
+
+//! locale : English (Ireland) [en-ie]
+
+//! locale : English (Israel) [en-il]
+
+//! locale : English (New Zealand) [en-nz]
+
+//! locale : English (Singapore) [en-sg]
+
+//! locale : English (United Kingdom) [en-gb]
+
+//! locale : German (Austria) [de-at]
+
+//! locale : German (Switzerland) [de-ch]
+
+//! locale : German [de]
+
+//! locale : Greek [el]
+
+//! locale : Maldivian [dv]
+
+//! moment.js locale configuration

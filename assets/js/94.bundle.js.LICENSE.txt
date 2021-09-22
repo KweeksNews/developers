@@ -1,0 +1,51 @@
+//! author : Colin Dean : https://github.com/colindean
+
+//! author : Dan Hagman : https://github.com/hagmandan
+
+//! author : Ebrahim Byagowi : https://github.com/ebraminio
+
+//! author : Eneko Illarramendi : https://github.com/eillarra
+
+//! author : Henry Kehlmann : https://github.com/madhenry
+
+//! author : JC Franco : https://github.com/jcfranco
+
+//! author : Julio Napurí : https://github.com/julionc
+
+//! author : Matthew Co : https://github.com/matthewdeeco
+
+//! author : Mia Nordentoft Imperatori : https://github.com/miestasmia
+
+//! author : Tarmo Aidantausta : https://github.com/bleadof
+
+//! author : bustta : https://github.com/bustta
+
+//! author : chrisrodz : https://github.com/chrisrodz
+
+//! comment : Vivakvo corrected the translation by colindean and miestasmia
+
+//! comment : miestasmia corrected the translation by colindean
+
+//! improvements : Illimar Tambek : https://github.com/ragulka
+
+//! locale : Basque [eu]
+
+//! locale : Esperanto [eo]
+
+//! locale : Estonian [et]
+
+//! locale : Filipino [fil]
+
+//! locale : Finnish [fi]
+
+//! locale : Persian [fa]
+
+//! locale : Spanish (Dominican Republic) [es-do]
+
+//! locale : Spanish (Mexico) [es-mx]
+
+//! locale : Spanish (United States) [es-us]
+
+//! locale : Spanish [es]
+
+//! moment.js locale configuration

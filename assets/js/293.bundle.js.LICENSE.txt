@@ -1,0 +1,39 @@
+//! author : Borislav Mickov : https://github.com/B0k0
+
+//! author : Floyd Pink : https://github.com/floydpink
+
+//! author : Harshad Kale : https://github.com/kalehv
+
+//! author : Javkhlantugs Nyamdorj : https://github.com/javkhaanj7
+
+//! author : John Corrigan <robbiecloset@gmail.com> : https://github.com/johnideal
+
+//! author : Jānis Elmeris : https://github.com/JanisE
+
+//! author : Kristaps Karlsons : https://github.com/skakri
+
+//! author : Mindaugas Mozūras : https://github.com/mmozuras
+
+//! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac
+
+//! author : Sashko Todorov : https://github.com/bkyceh
+
+//! author : Vivek Athalye : https://github.com/vnathalye
+
+//! locale : Latvian [lv]
+
+//! locale : Lithuanian [lt]
+
+//! locale : Macedonian [mk]
+
+//! locale : Malayalam [ml]
+
+//! locale : Maori [mi]
+
+//! locale : Marathi [mr]
+
+//! locale : Mongolian [mn]
+
+//! locale : Montenegrin [me]
+
+//! moment.js locale configuration

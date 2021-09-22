@@ -1,0 +1,49 @@
+//!           Burak Yiğit Kaya: https://github.com/BYK
+
+//! Author : Menelion Elensúle : https://github.com/Oire
+
+//! author : Abdel Said : https://github.com/abdelsaid
+
+//! author : Bang Nguyen : https://github.com/bangnk
+
+//! author : Chien Kira : https://github.com/chienkira
+
+//! author : Iustì Canun
+
+//! author : Rasulbek Mirzayev : github.com/Rasulbeeek
+
+//! author : Robin van der Vliet : https://github.com/robin0van0der0v
+
+//! author : Sardor Muminov : https://github.com/muminoff
+
+//! author : Sawood Alam : https://github.com/ibnesayeed
+
+//! author : Zack : https://github.com/ZackVision
+
+//! author : zemlanin : https://github.com/zemlanin
+
+//! author: boyaq : https://github.com/boyaq
+
+//! authors : Erhan Gundogan : https://github.com/erhangundogan,
+
+//! locale : Central Atlas Tamazight Latin [tzm-latn]
+
+//! locale : Central Atlas Tamazight [tzm]
+
+//! locale : Talossan [tzl]
+
+//! locale : Turkish [tr]
+
+//! locale : Ukrainian [uk]
+
+//! locale : Urdu [ur]
+
+//! locale : Uyghur (China) [ug-cn]
+
+//! locale : Uzbek Latin [uz-latn]
+
+//! locale : Uzbek [uz]
+
+//! locale : Vietnamese [vi]
+
+//! moment.js locale configuration

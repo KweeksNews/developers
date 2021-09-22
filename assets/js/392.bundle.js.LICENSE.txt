@@ -1,0 +1,61 @@
+//! Author : Menelion Elensúle : https://github.com/Oire
+
+//! author : Abdel Said : https://github.com/abdelsaid
+
+//! author : Abdel Said: https://github.com/abdelsaid
+
+//! author : Ahmed Elkhatib
+
+//! author : Ali Hmer: https://github.com/kikoanis
+
+//! author : Amine Roukh: https://github.com/Amine27
+
+//! author : Dmitry Demidov : https://github.com/demidov91
+
+//! author : ElFadili Yassine : https://github.com/ElFadiliY
+
+//! author : Estelle Comment : https://github.com/estellecomment
+
+//! author : Krasen Borisov : https://github.com/kraz
+
+//! author : Nader Toukabri : https://github.com/naderio
+
+//! author : Noureddine LOUAHEDJ : https://github.com/noureddinem
+
+//! author : Nusret Parlak: https://github.com/nusretparlak
+
+//! author : Suhail Alkowaileet : https://github.com/xsoh
+
+//! author : Werner Mollentze : https://github.com/wernerm
+
+//! author : forabi https://github.com/forabi
+
+//! author : topchiyev : https://github.com/topchiyev
+
+//! author: Praleska: http://praleska.pro/
+
+//! locale  :  Arabic (Tunisia) [ar-tn]
+
+//! locale : Afrikaans [af]
+
+//! locale : Arabic (Algeria) [ar-dz]
+
+//! locale : Arabic (Kuwait) [ar-kw]
+
+//! locale : Arabic (Lybia) [ar-ly]
+
+//! locale : Arabic (Morocco) [ar-ma]
+
+//! locale : Arabic (Saudi Arabia) [ar-sa]
+
+//! locale : Arabic [ar]
+
+//! locale : Azerbaijani [az]
+
+//! locale : Bambara [bm]
+
+//! locale : Belarusian [be]
+
+//! locale : Bulgarian [bg]
+
+//! moment.js locale configuration

@@ -1,0 +1,33 @@
+//! author : Andrew Hood : https://github.com/andrewhood125
+
+//! author : Anthony : https://github.com/anthonylau
+
+//! author : Atolagbe Abisoye : https://github.com/andela-batolagbe
+
+//! author : Ben : https://github.com/ben-lin
+
+//! author : Chris Lam : https://github.com/hehachris
+
+//! author : Konstantin : https://github.com/skfd
+
+//! author : Tan Yuanhong : https://github.com/le0tan
+
+//! author : Zeno Zeng : https://github.com/zenozeng
+
+//! author : suupic : https://github.com/suupic
+
+//! author : uu109 : https://github.com/uu109
+
+//! locale : Chinese (China) [zh-cn]
+
+//! locale : Chinese (Hong Kong) [zh-hk]
+
+//! locale : Chinese (Macau) [zh-mo]
+
+//! locale : Chinese (Taiwan) [zh-tw]
+
+//! locale : Pseudo [x-pseudo]
+
+//! locale : Yoruba Nigeria [yo]
+
+//! moment.js locale configuration

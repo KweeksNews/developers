@@ -1,0 +1,45 @@
+//! author : Anatoly Mironov : https://github.com/mirontoli
+
+//! author : Asraf Hossain Patoary : https://github.com/ashwoolford
+
+//! author : Jean-Baptiste Le Duigou : https://github.com/jbleduigou
+
+//! author : Juan G. Hurtado : https://github.com/juanghurtado
+
+//! author : Kaushik Gandhi : https://github.com/kaushikgandhi
+
+//! author : Nedim Cholich : https://github.com/frontyard
+
+//! author : Robert Allen : https://github.com/robgallen
+
+//! author : Thupten N. Chakrishar : https://github.com/vajradog
+
+//! author : Ulrik Nielsen : https://github.com/mrbase
+
+//! author : https://github.com/ryangreaves
+
+//! author : petrbela : https://github.com/petrbela
+
+//! based on (hr) translation by Bojan Marković
+
+//! locale : Bengali (Bangladesh) [bn-bd]
+
+//! locale : Bengali [bn]
+
+//! locale : Bosnian [bs]
+
+//! locale : Breton [br]
+
+//! locale : Catalan [ca]
+
+//! locale : Chuvash [cv]
+
+//! locale : Czech [cs]
+
+//! locale : Danish [da]
+
+//! locale : Tibetan [bo]
+
+//! locale : Welsh [cy]
+
+//! moment.js locale configuration

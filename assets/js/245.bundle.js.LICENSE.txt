@@ -1,0 +1,73 @@
+//! author : Chyngyz Arystan uulu : https://github.com/chyngyz
+
+//! author : David Raison : https://github.com/kwisatz
+
+//! author : Hinrik Örn Sigurðsson : https://github.com/hinrik
+
+//! author : Irakli Janiashvili : https://github.com/IrakliJani
+
+//! author : Jeeeyul Lee <jeeeyul@gmail.com>
+
+//! author : Kruy Vanna : https://github.com/kruyvanna
+
+//! author : Kyungwook, Park : https://github.com/kyungw00k
+
+//! author : LI Long : https://github.com/baryon
+
+//! author : Lorenzo : https://github.com/aliem
+
+//! author : Mohammad Satrio Utomo : https://github.com/tyok
+
+//! author : Rajeev Naik : https://github.com/rajeevnaikte
+
+//! author : Rony Lantip : https://github.com/lantip
+
+//! author : Ryan Hart : https://github.com/ryanhart2
+
+//! author : Shahram Mebashar : https://github.com/ShahramMebashar
+
+//! author : mweimerskirch : https://github.com/mweimerskirch
+
+//! author : xfh : https://github.com/xfh
+
+//! author: Marco : https://github.com/Manfre98
+
+//! author: Mattia Larentis: https://github.com/nostalgiaz
+
+//! authors : Nurlan Rakhimzhanov : https://github.com/nurlan
+
+//! locale : Cambodian [km]
+
+//! locale : Georgian [ka]
+
+//! locale : Icelandic [is]
+
+//! locale : Indonesian [id]
+
+//! locale : Italian (Switzerland) [it-ch]
+
+//! locale : Italian [it]
+
+//! locale : Japanese [ja]
+
+//! locale : Javanese [jv]
+
+//! locale : Kannada [kn]
+
+//! locale : Kazakh [kk]
+
+//! locale : Korean [ko]
+
+//! locale : Kurdish [ku]
+
+//! locale : Kyrgyz [ky]
+
+//! locale : Lao [lo]
+
+//! locale : Luxembourgish [lb]
+
+//! moment.js locale configuration
+
+//! reference: http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
+
+//! reference: http://jv.wikipedia.org/wiki/Basa_Jawa

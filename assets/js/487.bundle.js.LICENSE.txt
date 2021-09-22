@@ -1,0 +1,35 @@
+//! author : André Silva : https://github.com/askpt
+
+//! author : Gaspard Bucher : https://github.com/gaspard
+
+//! author : John Fischer : https://github.com/jfroffice
+
+//! author : Jon Ashdown : https://github.com/jonashdown
+
+//! author : Jonathan Abourbih : https://github.com/jonbca
+
+//! author : Juan G. Hurtado : https://github.com/juanghurtado
+
+//! author : Kristian Sakarisson : https://github.com/sakarisson
+
+//! author : Ragnar Johannesen : https://github.com/ragnar123
+
+//! author : Robin van der Vliet : https://github.com/robin0van0der0v
+
+//! locale : Faroese [fo]
+
+//! locale : French (Canada) [fr-ca]
+
+//! locale : French (Switzerland) [fr-ch]
+
+//! locale : French [fr]
+
+//! locale : Frisian [fy]
+
+//! locale : Galician [gl]
+
+//! locale : Irish or Irish Gaelic [ga]
+
+//! locale : Scottish Gaelic [gd]
+
+//! moment.js locale configuration

@@ -1,0 +1,37 @@
+//! author : Adam Brunner : https://github.com/adambrunner
+
+//! author : Armendarabyan : https://github.com/armendarabyan
+
+//! author : Bojan Marković : https://github.com/bmarkovic
+
+//! author : Kaushik Thanki : https://github.com/Kaushik1987
+
+//! author : Mayank Singhal : https://github.com/mayanksinghal
+
+//! author : Moshe Simantov : https://github.com/DevelopmentIL
+
+//! author : Peter Viszt  : https://github.com/passatgt
+
+//! author : Tal Ater : https://github.com/TalAter
+
+//! author : The Discoverer : https://github.com/WikiDiscoverer
+
+//! author : Tomer Cohen : https://github.com/tomer
+
+//! locale : Armenian [hy-am]
+
+//! locale : Croatian [hr]
+
+//! locale : Gujarati [gu]
+
+//! locale : Hebrew [he]
+
+//! locale : Hindi [hi]
+
+//! locale : Hungarian [hu]
+
+//! locale : Konkani Devanagari script [gom-deva]
+
+//! locale : Konkani Latin script [gom-latn]
+
+//! moment.js locale configuration

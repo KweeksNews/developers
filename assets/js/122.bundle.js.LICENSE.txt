@@ -1,0 +1,55 @@
+//! author : Arjunkumar Krishnamoorthy : https://github.com/tk120404
+
+//! author : Atamyrat Abdyrahmanov : https://github.com/atamyratabdy
+
+//! author : Dan Hagman : https://github.com/hagmandan
+
+//! author : Dominika Kruk : https://github.com/amaranthrose
+
+//! author : Fahad Kassim : https://github.com/fadsel
+
+//! author : Jens Alm : https://github.com/ulmus
+
+//! author : Joshua Brooks : https://github.com/joshbrooks
+
+//! author : Kridsada Thanabulpong : https://github.com/sirn
+
+//! author : Krishna Chaitanya Thota : https://github.com/kcthota
+
+//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
+
+//! author : Nicolai Davies<mail@nicolai.io> : https://github.com/nicolaidavies
+
+//! author : Onorio De J. Afonso : https://github.com/marobo
+
+//! author : Orif N. Jr. : https://github.com/orif-jr
+
+//! author : Sonia Simoes : https://github.com/soniasimoes
+
+//! author : Stefan Crnjaković <stefan@hotmail.rs> : https://github.com/crnjakovic
+
+//! locale : Klingon [tlh]
+
+//! locale : Serbian [sr]
+
+//! locale : Swahili [sw]
+
+//! locale : Swedish [sv]
+
+//! locale : Tagalog (Philippines) [tl-ph]
+
+//! locale : Tajik [tg]
+
+//! locale : Tamil [ta]
+
+//! locale : Telugu [te]
+
+//! locale : Tetun Dili (East Timor) [tet]
+
+//! locale : Thai [th]
+
+//! locale : Turkmen [tk]
+
+//! locale : siSwati [ss]
+
+//! moment.js locale configuration

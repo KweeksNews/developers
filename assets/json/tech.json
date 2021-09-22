@@ -1,0 +1,22 @@
+[
+  {
+    "name": "WordPress",
+    "image": "/assets/img/tech/wordpress.svg"
+  },
+  {
+    "name": "Cloudflare",
+    "image": "/assets/img/tech/cloudflare.svg"
+  },
+  {
+    "name": "GitHub",
+    "image": "/assets/img/tech/github.svg"
+  },
+  {
+    "name": "LiteSpeed",
+    "image": "/assets/img/tech/litespeed.svg"
+  },
+  {
+    "name": "QUIC.cloud",
+    "image": "/assets/img/tech/quic-cloud.svg"
+  }
+]

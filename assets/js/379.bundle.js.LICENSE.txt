@@ -1,0 +1,83 @@
+//!           Stephen Ramthun : https://github.com/stephenramthun
+
+//! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
+
+//! author : Emanuel Cepoi : https://github.com/cepem
+
+//! author : Flakërim Ismani : https://github.com/flakerimi
+
+//! author : Harpreet Singh : https://github.com/harpreetkhalsagtbit
+
+//! author : Jacob Middag : https://github.com/middagj
+
+//! author : Jefferson : https://github.com/jalex79
+
+//! author : Joris Röling : https://github.com/jorisroling
+
+//! author : Martin Minka : https://github.com/k2s
+
+//! author : Menelion Elensúle : https://github.com/Oire
+
+//! author : Milan Janačković<milanjanackovic@gmail.com> : https://github.com/milan-j
+
+//! author : Narain Sagar : https://github.com/narainsagar
+
+//! author : Oerd Cukalla : https://github.com/oerd
+
+//! author : Quentin PAGÈS : https://github.com/Quenty31
+
+//! author : Rafal Hirsz : https://github.com/evoL
+
+//! author : Robert Sedovšek : https://github.com/sedovsek
+
+//! author : Sampath Sitinamaluwa : https://github.com/sampathsris
+
+//! author : Stefan Crnjaković <stefan@hotmail.rs> : https://github.com/crnjakovic
+
+//! author : Valentin Agachi : https://github.com/avaly
+
+//! author : Viktorminator : https://github.com/Viktorminator
+
+//! author : Vlad Gurdiga : https://github.com/gurdiga
+
+//! author : Коренберг Марк : https://github.com/socketpair
+
+//! authors : Bård Rolstad Henriksen : https://github.com/karamell
+
+//! authors : https://github.com/mechuwind
+
+//! based on work of petrbela : https://github.com/petrbela
+
+//! locale : Albanian [sq]
+
+//! locale : Dutch [nl]
+
+//! locale : Northern Sami [se]
+
+//! locale : Nynorsk [nn]
+
+//! locale : Occitan, lengadocian dialecte [oc-lnc]
+
+//! locale : Polish [pl]
+
+//! locale : Portuguese (Brazil) [pt-br]
+
+//! locale : Portuguese [pt]
+
+//! locale : Punjabi (India) [pa-in]
+
+//! locale : Romanian [ro]
+
+//! locale : Russian [ru]
+
+//! locale : Serbian Cyrillic [sr-cyrl]
+
+//! locale : Sindhi [sd]
+
+//! locale : Sinhalese [si]
+
+//! locale : Slovak [sk]
+
+//! locale : Slovenian [sl]
+
+//! moment.js locale configuration
